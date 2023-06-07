@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mi Primer Website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="container-nav">
+            <nav class="navbar" role="navigation">
+                <a href="#" class="brand">Mi página web</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Detallitos.html">Detallitos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="About.html">Acerca de</a></li>
+                </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+        </header>
+        <main class="container">
+            <button onclick="showAlert()" aria-label="Haz click en mí!">Haz click en mi!</button>
+            <h1>Bienvenidos a mi primer Website!</h1>
+            <div class="row">
+            <section>
+                <div class="column">
+                    <h2>¿Quién habla?</h2>
+                    <div class="box">
+                        <p>Soy Coty ¡y esta es mi primera página web!</p>
+                        <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="column">
+                    <h2>¿Qué estoy haciendo?</h2>
+                    <div class="box">
+                        <p>A lo largo de este curso, estaré aprendiendo HTML, CCS, y JavaScript. Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.</p>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </main>
+        <footer>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/E6kWCL-8CNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>¡Bravo, llegaste al final :D!</p>
+            <button onclick="showAlert()" aria-label="¡Hace click acá!">¡Hace click acá!</button>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

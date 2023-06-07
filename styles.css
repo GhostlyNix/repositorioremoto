@@ -1,0 +1,144 @@
+.container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: rgb(26, 73, 26);}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;}
+
+.brand {
+    display: flex;
+    align-items: center;}
+
+li>a {
+    padding: 8px 24px;}
+
+a {
+    color: white;
+    text-decoration: wavy;}
+
+a:hover {
+    color: rgb(186, 129, 240);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;}
+
+.button-menu-toggle {
+    display: none;}
+
+@media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border:none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+   
+    .nav-links.nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20,20,20,0.95);
+      width: 100%;
+      height: 130%;
+      top: 50px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 70px;
+      align-items: center;
+      gap:70px;
+      font-size: 25px;
+  
+    }
+  }
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body {
+    background-color:lightgreen;
+    color: darkgreen}
+h1 {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center}
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1px 100px 1px 100px;
+    padding: 1px;}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 10px;}
+  
+footer p {
+    font-size: 24px;}
+  
+footer button {
+    background-color: rgb(182, 123, 238);
+    border-radius: 5px;
+    color: white;}
+
+button {
+    background-color: rgb(99, 65, 27);
+    color: rgb(198, 173, 230);
+    align-self: center;
+}
+
+.imágenes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;}
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;}
+.column {
+    flex: 0,5;
+    padding: 10px}
+.box {
+    border: 3px solid rgb(24, 116, 24);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.greetings {
+    align-self: center;
+    font-size: 50px;
+}
+
+@media (max-width: 600px) {
+    .column {flex: 100%;
+    }
+}
