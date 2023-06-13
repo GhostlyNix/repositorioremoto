@@ -75,8 +75,8 @@ main {
 }
 
 body {
-    background-color:rgb(223, 210, 136);
-    color: rgb(168, 157, 0)}
+    background-color:lightgreen;
+    color: darkgreen}
 h1 {
     font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
